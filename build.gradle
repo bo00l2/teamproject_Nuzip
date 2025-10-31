@@ -32,7 +32,11 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
+	// env 의존성
 	implementation 'io.github.cdimascio:java-dotenv:5.2.2'
+
+	// ✅ Jsoup: HTML 파싱 (뉴스 본문 추출용)
+	implementation 'org.jsoup:jsoup:1.17.2'
 
 }
 
